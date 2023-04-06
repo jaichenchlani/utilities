@@ -1,7 +1,7 @@
 # SRE Terminal Aliases
 
 ### My Exports
-export PS1="\W\n$"
+export PS1="\w$"
 export REPOS=/home/repos
 export project_id=codegarage-381602
 export zone=us-east1
