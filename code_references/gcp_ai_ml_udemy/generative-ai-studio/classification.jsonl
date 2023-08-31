@@ -1,0 +1,160 @@
+{"input_text": "This tool is a platform used for containerization.", "output_text": "Docker"}
+{"input_text": "Which tool allows you to define and manage infrastructure as code?", "output_text": "Terraform"}
+{"input_text": "This tool automates the deployment and management of containerized applications.", "output_text": "Kubernetes"}
+{"input_text": "Which configuration management tool is agentless and uses SSH for communication?", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool provides a suite of development and collaboration services.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to package applications and their dependencies into a container image?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool scales and manages containerized workloads.", "output_text": "Kubernetes"}
+{"input_text": "Which tool uses a declarative approach for infrastructure configuration?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool uses a YAML-based language called Playbooks.", "output_text": "Ansible"}
+{"input_text": "Which Microsoft tool provides version control, build automation, and CI/CD pipelines?", "output_text": "Azure DevOps"}
+{"input_text": "This tool enables you to run applications in isolated containers.", "output_text": "Docker"}
+{"input_text": "Which container orchestration tool was originally developed by Google?", "output_text": "Kubernetes"}
+{"input_text": "This tool is a popular choice for managing cloud infrastructure.", "output_text": "Terraform"}
+{"input_text": "Which configuration management tool uses a push-based model?", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool was formerly known as Visual Studio Team Services (VSTS).", "output_text": "Azure DevOps"}
+{"input_text": "Which tool is used for automating the deployment and scaling of containers?", "output_text": "Kubernetes"}
+{"input_text": "This tool is commonly used for creating and managing infrastructure as code.", "output_text": "Terraform"}
+{"input_text": "Which configuration management tool uses a Master-Slave architecture?", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool integrates with Git repositories for version control.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to create, deploy, and manage applications within containers?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports self-healing and auto-scaling features.", "output_text": "Kubernetes"}
+{"input_text": "Which tool uses HashiCorp Configuration Language (HCL) for defining infrastructure?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool uses YAML or JSON for writing configuration files.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool provides built-in test management and reporting capabilities.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to run applications consistently across different environments?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool provides horizontal auto-scaling for pods.", "output_text": "Kubernetes"}
+{"input_text": "Which tool can manage both public cloud providers and on-premises infrastructure?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool can manage Windows, Linux, and network devices.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool supports automated testing and continuous integration.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to share and distribute container images?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to define and manage multi-container applications.", "output_text": "Kubernetes"}
+{"input_text": "Which tool uses HashiCorp Configuration Language (HCL) for infrastructure provisioning?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool uses a declarative language for specifying configurations.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool provides integrated reporting and dashboards for project tracking.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to create, manage, and deploy containers on a single host?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports rolling updates for application deployments.", "output_text": "Kubernetes"}
+{"input_text": "Which tool supports multiple cloud providers, including AWS, Azure, and GCP?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool uses SSH for secure communication with nodes.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers a package management system for code artifacts.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to define application stacks and their dependencies as code?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool provides self-healing for containerized applications.", "output_text": "Kubernetes"}
+{"input_text": "Which tool supports infrastructure state management and change preview?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool supports agent-based and agentless modes.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool provides continuous integration and delivery pipelines.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to isolate applications and their dependencies using containers?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to manage storage for stateful applications.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a cloud-agnostic approach to infrastructure provisioning?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool uses modules for reusable configuration.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers built-in Git version control for source code management.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool enables you to create and manage lightweight, portable containers?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to define and manage application deployments using YAML files.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides infrastructure provisioning through code written in HashiCorp Configuration Language?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool is known for its ease of use and agentless architecture.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers build automation and release management capabilities.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to create isolated environments for running applications?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports both rolling updates and rollbacks for application deployments.", "output_text": "Kubernetes"}
+{"input_text": "Which tool enables you to manage infrastructure as code using declarative language constructs?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool can manage Windows and Linux systems from a central server.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers a secure and scalable Git repository hosting service.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to create and manage development environments using containers?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to define and manage networking between containers.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a consistent and unified workflow for infrastructure provisioning?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool is known for its agentless architecture and ease of setup.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers automated testing capabilities for applications.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to manage container images and repositories?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to define and manage pod specifications.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a plugin-based architecture for extending its capabilities?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool uses YAML-based Playbooks for defining configurations.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool provides integrated project tracking and collaboration features.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to create and run applications within isolated environments?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports automatic load balancing for services.", "output_text": "Kubernetes"}
+{"input_text": "Which tool allows you to manage cloud infrastructure resources as code?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool supports idempotent and state-driven execution.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers test planning and execution capabilities for QA teams.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to create and manage lightweight, reproducible environments?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool provides automatic scaling based on CPU and memory usage.", "output_text": "Kubernetes"}
+{"input_text": "Which tool allows you to manage infrastructure across multiple cloud providers?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool allows you to define complex IT workflows.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool provides continuous delivery and deployment automation.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to define application dependencies and configurations in code?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool provides horizontal auto-scaling for services.", "output_text": "Kubernetes"}
+{"input_text": "Which tool allows you to manage cloud infrastructure using version-controlled code?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool supports ad-hoc commands for system management.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers artifact management for build outputs and dependencies.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to package applications with their dependencies for easy deployment?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to define and manage deployments using YAML files.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a plugin-based ecosystem for extending its functionalities?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool allows you to automate tasks across different systems.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers built-in load testing capabilities for applications.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to share and distribute applications packaged in lightweight containers?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports service discovery and load balancing.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides infrastructure provisioning and resource management through code?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool uses a push-based model for executing tasks on nodes.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers test reporting and analytics for tracking test results.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to define application dependencies and configurations as code?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports automatic rollbacks for failed deployments.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a unified workflow for managing both infrastructure and services?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool allows you to create reusable roles for system configuration.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers release management and deployment automation.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to build, ship, and run applications using containers?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to define and manage replica sets.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a cloud-agnostic approach to infrastructure management?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool allows you to manage configurations for Windows and Linux servers.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers project planning and tracking features for agile development.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to package and distribute applications as self-sufficient containers?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports self-healing and auto-recovery for pods.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a declarative approach for defining infrastructure as code?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool supports agentless execution on remote systems.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers automated build and release pipelines.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to create, deploy, and run applications in isolated environments?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to define and manage namespaces.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a scalable and collaborative platform for managing infrastructure?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool allows you to manage configurations for network devices.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers built-in support for build automation using MSBuild.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to create isolated environments for running applications?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports dynamic provisioning of storage for pods.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a cloud-agnostic approach to infrastructure provisioning?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool supports idempotent execution for consistent state management.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers integrated code review and pull request management.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to define application dependencies and configurations in code?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to define and manage deployments using YAML files.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a plugin-based ecosystem for extending its functionalities?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool allows you to automate tasks across different systems.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers built-in load testing capabilities for applications.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to share and distribute applications packaged in lightweight containers?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports service discovery and load balancing.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides infrastructure provisioning and resource management through code?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool uses a push-based model for executing tasks on nodes.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers test reporting and analytics for tracking test results.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to define application dependencies and configurations as code?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports automatic rollbacks for failed deployments.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a unified workflow for managing both infrastructure and services?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool allows you to create reusable roles for system configuration.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers release management and deployment automation.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to build, ship, and run applications using containers?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to define and manage replica sets.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a cloud-agnostic approach to infrastructure management?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool allows you to manage configurations for Windows and Linux servers.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers project planning and tracking features for agile development.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to package and distribute applications as self-sufficient containers?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports self-healing and auto-recovery for pods.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a declarative approach for defining infrastructure as code?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool supports agentless execution on remote systems.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers automated build and release pipelines.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to create, deploy, and run applications in isolated environments?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to define and manage namespaces.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a scalable and collaborative platform for managing infrastructure?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool allows you to manage configurations for network devices.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers built-in support for build automation using MSBuild.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to create isolated environments for running applications?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool supports dynamic provisioning of storage for pods.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a cloud-agnostic approach to infrastructure provisioning?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool supports idempotent execution for consistent state management.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers integrated code review and pull request management.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to define application dependencies and configurations in code?", "output_text": "Docker"}
+{"input_text": "This container orchestration tool allows you to define and manage deployments using YAML files.", "output_text": "Kubernetes"}
+{"input_text": "Which tool provides a plugin-based ecosystem for extending its functionalities?", "output_text": "Terraform"}
+{"input_text": "This configuration management tool allows you to automate tasks across different systems.", "output_text": "Ansible"}
+{"input_text": "This Microsoft tool offers built-in load testing capabilities for applications.", "output_text": "Azure DevOps"}
+{"input_text": "Which tool allows you to share and distribute applications packaged in lightweight containers?", "output_text": "Docker"}
