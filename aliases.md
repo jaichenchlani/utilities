@@ -46,25 +46,25 @@ alias tsh='terraform show'
 
 ## gcloud aliases
 ### Config
-alias gal='gcloud auth login'
-alias gol='gcloud organizations list'
-alias gpl='gcloud projects list'
-alias gfl='gcloud resource-manager folders list --organization $1' 
-alias gcl='gcloud config list'
-alias gcsp='gcloud config set project $1' 
-alias gccl='gcloud config configurations list'
-alias gcca='gcloud config configurations activate $1' 
-alias gopl='gcloud resource-manager org-policies list'
-alias goiam='gcloud organizations get-iam-policy $1' 
-alias gfiam='gcloud alpha resource-manager folders get-iam-policy $FOLDER_ID $1'
-
+alias gal='gcloud auth login'  
+alias gol='gcloud organizations list'  
+alias gpl='gcloud projects list'  
+alias gfl='gcloud resource-manager folders list --organization $1'  
+alias gcl='gcloud config list'  
+alias gcsp='gcloud config set project $1'   
+alias gccl='gcloud config configurations list'  
+alias gcca='gcloud config configurations activate $1'   
+alias gopl='gcloud resource-manager org-policies list'  
+alias goiam='gcloud organizations get-iam-policy $1'  
+alias gfiam='gcloud alpha resource-manager folders  get-iam-policy $FOLDER_ID $1'  
+ 
 ### Compute | Instances
-alias gcil='gcloud compute instances list'
-alias gcid='gcloud compute instances describe $1' 
-alias gcnl='gcloud compute networks list'
-alias gcfrl='gcloud compute firewall-rules list'
-alias gcsnl='gcloud compute networks subnets list --network $1' 
-alias gssh='gcloud compute ssh --zone $zone $1  --project $project_id'
+alias gcil='gcloud compute instances list'  
+alias gcid='gcloud compute instances describe $1'   
+alias gcnl='gcloud compute networks list'  
+alias gcfrl='gcloud compute firewall-rules list'  
+alias gcsnl='gcloud compute networks subnets list --network $1'  
+alias gssh='gcloud compute ssh --zone $zone $1  --project $project_id'  
 
 ### Compute | Managed Instance Groups - MIG
 alias gmigl='gcloud beta compute instance-groups managed list'  
@@ -86,21 +86,21 @@ alias wrap_args='f(){ echo before "$@" after;  unset -f f; }; f'
 
 ### IAM
 #### Basic
-alias gsal='gcloud iam service-accounts list' # Get Service Accounts list
+alias gsal='gcloud iam service-accounts list' # Get Service Accounts list  
 alias girl='f(){ gcloud iam roles list --format="csv(name)";  unset -f f; }; f' # Get all IAM roles - Name only
 alias girlw='f(){ gcloud iam roles list --format="csv(name,title,stage,descri
-ption)";  unset -f f; }; f' # Get all IAM roles Wide - Additional details
-alias gird="gcloud iam roles describe $1" # Get permissions associated with a particular role
+ption)";  unset -f f; }; f' # Get all IAM roles Wide - Additional details  
+alias gird="gcloud iam roles describe $1" # Get permissions associated with a particular role  
 #### Advanced
-alias goiam='gcloud organizations get-iam-policy $1' # Get all org IAM roles
-alias gfiam='gcloud alpha resource-manager folders get-iam-policy $1' # Get all Folder IAM roles
-alias goiamsa='f(){ gcloud organizations get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role)" --filter="bindings.members:$2";  unset -f f; }; f' # Get Org IAM roles for a particular SA/Group/Member
-alias gfiamsa='f(){ gcloud alpha resource-manager folders get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role)" --filter="bindings.members:$2";  unset -f f; }; f' # Get Folder IAM roles for a particular SA/Group/Member
-alias gpiam='f(){ gcloud projects get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role,bindings.serviceAccount)";  unset -f f; }; f' # Get IAM policy bindings for a project
-alias gpiamsa='f(){ gcloud projects get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role)" --filter="bindings.members:$2";  unset -f f; }; f' # Get Project IAM roles for a particular SA/Group/Member
-alias garsa='f(){ gcloud projects add-iam-policy-binding $1 --member=serviceAccount:$2 --role=$3;  unset -f f; }; f' # Assign project level roles to a particular SA/Group/Member
-alias grrsa='f(){ gcloud projects remove-iam-policy-binding $1 --member=serviceAccount:$2 --role=$3;  unset -f f; }; f' # Remove an assigned role from a Service Account
-alias grrsa='gcloud projects remove-iam-policy-binding $1 --member serviceAccount:$2 --role $3' Remove an assigned role from a Service Account
+alias goiam='gcloud organizations get-iam-policy $1' # Get all org IAM roles  
+alias gfiam='gcloud alpha resource-manager folders get-iam-policy $1' # Get all Folder IAM roles  
+alias goiamsa='f(){ gcloud organizations get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role)" --filter="bindings.members:$2";  unset -f f; }; f' # Get Org IAM roles for a particular SA/Group/Member  
+alias gfiamsa='f(){ gcloud alpha resource-manager folders get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role)" --filter="bindings.members:$2";  unset -f f; }; f' # Get Folder IAM roles for a particular SA/Group/Member  
+alias gpiam='f(){ gcloud projects get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role,bindings.serviceAccount)";  unset -f f; }; f' # Get IAM policy bindings for a project  
+alias gpiamsa='f(){ gcloud projects get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role)" --filter="bindings.members:$2";  unset -f f; }; f' # Get Project IAM roles for a particular SA/Group/Member  
+alias garsa='f(){ gcloud projects add-iam-policy-binding $1 --member=serviceAccount:$2 --role=$3;  unset -f f; }; f' # Assign project level roles to a particular SA/Group/Member  
+alias grrsa='f(){ gcloud projects remove-iam-policy-binding $1 --member=serviceAccount:$2 --role=$3;  unset -f f; }; f' # Remove an assigned role from a Service Account  
+alias grrsa='gcloud projects remove-iam-policy-binding $1 --member serviceAccount:$2 --role $3' Remove an assigned role from a Service Account  
 
 ## kubectl aliases
 
