@@ -98,7 +98,9 @@ alias goiamsa='f(){ gcloud organizations get-iam-policy $1 --flatten="bindings[]
 alias gfiamsa='f(){ gcloud alpha resource-manager folders get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role)" --filter="bindings.members:$2";  unset -f f; }; f' # Get Folder IAM roles for a particular SA/Group/Member
 alias gpiam='f(){ gcloud projects get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role,bindings.serviceAccount)";  unset -f f; }; f' # Get IAM policy bindings for a project
 alias gpiamsa='f(){ gcloud projects get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role)" --filter="bindings.members:$2";  unset -f f; }; f' # Get Project IAM roles for a particular SA/Group/Member
-alias gartsa='f(){ gcloud projects add-iam-policy-binding $1 --member=serviceAccount:$2 --role=$3;  unset -f f; }; f' # Assign project level roles to a particular SA/Group/Member
+alias garsa='f(){ gcloud projects add-iam-policy-binding $1 --member=serviceAccount:$2 --role=$3;  unset -f f; }; f' # Assign project level roles to a particular SA/Group/Member
+alias grrsa='f(){ gcloud projects remove-iam-policy-binding $1 --member=serviceAccount:$2 --role=$3;  unset -f f; }; f' # Remove an assigned role from a Service Account
+alias grrsa='gcloud projects remove-iam-policy-binding $1 --member serviceAccount:$2 --role $3' Remove an assigned role from a Service Account
 
 ## kubectl aliases
 
