@@ -96,6 +96,7 @@ alias goiam='gcloud organizations get-iam-policy $1' # Get all org IAM roles
 alias gfiam='gcloud alpha resource-manager folders get-iam-policy $1' # Get all Folder IAM roles
 alias goiamsa='f(){ gcloud organizations get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role)" --filter="bindings.members:$2";  unset -f f; }; f' # Get Org IAM roles for a particular SA/Group/Member
 alias gfiamsa='f(){ gcloud alpha resource-manager folders get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role)" --filter="bindings.members:$2";  unset -f f; }; f' # Get Folder IAM roles for a particular SA/Group/Member
+alias gpiam='f(){ gcloud projects get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role,bindings.serviceAccount)";  unset -f f; }; f' # Get IAM policy bindings for a project
 alias gpiamsa='f(){ gcloud projects get-iam-policy $1 --flatten="bindings[].members" --format="table(bindings.role)" --filter="bindings.members:$2";  unset -f f; }; f' # Get Project IAM roles for a particular SA/Group/Member
 alias gartsa='f(){ gcloud projects add-iam-policy-binding $1 --member=serviceAccount:$2 --role=$3;  unset -f f; }; f' # Assign project level roles to a particular SA/Group/Member
 
