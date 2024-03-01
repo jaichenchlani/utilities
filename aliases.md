@@ -33,6 +33,13 @@ alias rename='function _rename() { for i in *$1*; do mv "$i" "${i/$1/$2}"; done 
 alias ssh-keygen='function _ssh-keygen(){ ssh-keygen -t $1 -b $2 -C $3; }; _ssh-keygen' # This generates an ssh key with a specified encryption type, key size and comment  
 alias encrypt='function _encrypt() { openssl enc -aes-256-cbc -salt -in $1 -out $2; }; _encrypt' # This encrypts a file using AES-256 encryption  
 
+## git aliases
+alias gs='git status'
+alias ga='git add .'
+alias gcm='git commit -m $1'
+alias gpush='git push origin $1'
+alias gpull='git pull origin $1'
+
 ## terraform aliases
 ### Basic Commands
 alias ti='terraform init'  
