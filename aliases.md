@@ -91,6 +91,17 @@ alias gcfmd='gcloud container fleet mesh describe'
 alias gcfmeml='gcloud container fleet memberships list'  
 alias wrap_args='f(){ echo before "$@" after;  unset -f f; }; f'  
 
+### Cloud Run
+alias grsl='gcloud run services list'
+alias grsd='gcloud run services describe $1 --region us-east1'
+alias grsiam='gcloud run services get-iam-policy $1 --region us-east1'
+
+### PubSub
+alias gptlw='gcloud pubsub topics list'
+alias gptl='f(){ gcloud pubsub topics list --format="yaml(name)";  unset -f f; }; f' # Name Only
+alias gpslw='gcloud pubsub subscriptions list'
+alias gpsl='f(){ gcloud pubsub subscriptions list --format="yaml(name,topic,pushConfig.pushEndpoint,retryPolicy.minimumBackoff,retryPolicy.maximumBackoff,ackDeadlineSeconds,deadLetterPolicy.maxDeliveryAttempts)";  unset -f f; }; f' # Shortlisted Fields Only
+
 ### IAM
 #### Basic
 alias gsal='gcloud iam service-accounts list' # Get Service Accounts list  
