@@ -3,10 +3,21 @@
 ## My Exports
 export PS1="[\u@\h]\w$"  
 export REPOS=/home/repos  
-export project_id=codegarage-381602  
-export zone=us-east1  
-export zone=us-east1-b  
+export project_id=proj-eleagueonline-dev  
+export zone=us-east1
+export zone=us-east1-c  
 export machine_type=n1-standard-1  
+export ELEAGUEONLINE_ENVIRONMENT=dev
+export ELEAGUEONLINE_PROJECT=proj-eleagueonline-$ELEAGUEONLINE_EN    VIRONMENT
+export ELEAGUEONLINE_LOGGING_LEVEL=20
+export PUBLICAPPS_ENVIRONMENT=dev
+export PUBLICAPPS_PROJECT=proj-eleagueonline-$PUBLICAPPS_ENVIRONMENT
+export PUBLICAPPS_LOGGING_LEVEL=20
+export PRODBACKUPBUCKET=gs://elo-db-backup-prod/
+export SM_LOGGING_LEVEL=30
+export ECP_ENVIRONMENT=prod
+export ECP_PROJECT=proj-other-$ECP_ENVIRONMENT
+export ECP_LOGGING_LEVEL=20
 
 ## Linux aliases
 alias ll="ls -lrt"  
